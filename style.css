@@ -1,0 +1,122 @@
+body{
+    background-image: url(background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home{
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+
+  }
+  .home h1{
+    font-size: 300%; 
+    color: rgb(243, 242, 242);
+    
+  }
+  .paragraph{
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 20px;
+    position: relative;
+    color: white;
+  }
+  .home h5{
+    color: white;
+  }
+  .home img{
+    width: 30px;
+  }
+
+  .signup {
+    width: 250px;
+    height: 500px;
+    background: linear-gradient(to top,rgba(7, 8, 8, 0.842)50%,rgba(7, 8, 8, 0.842)50%);
+    position: absolute;
+    top: 70px;
+    left: 900px;
+    border-radius: 20px;
+    padding: 30px;
+  
+  }
+  .signup h2{
+    width: 100%;
+    font-family:'Arial Narrow Bold';
+    font-size: 200%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(14, 2, 2);
+    background-color:wheat;
+    margin: 4px;
+    padding: 1px;
+    border-radius: 20px;
+  
+  }
+  .signup h5{
+    width: 100%;
+    text-align: center;
+    color: rgb(14, 2, 2);
+    background-color:rgb(252, 252, 252);
+    margin: 4px;
+    padding: 1px;
+    border-radius: 20px;
+    
+  }
+  .signup input{
+    color: azure;
+   background: transparent;
+    
+  }
+  .signup label{
+    color: white;
+  }
+  .rm{
+    position: absolute;
+    top: 70px;
+    left: 900px;
+    border-radius: 20px;
+    padding-top: 340px;
+    padding-left: 30px;
+    color: aliceblue;
+  
+  }
+  .signup p{
+    color: white;
+  }
+  
+  .btn{
+   width: 115px;
+   height: 40px;
+  background-color: rgba(8, 81, 165, 0.616);
+   border: none;
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition:.3 ease;
+   
+    }
+    
+  .btn:hover{
+    background-color: rgb(28, 102, 167);
+  }
+  .sub {
+    width: 115px;
+   height: 40px;
+  background-color: rgba(190, 10, 10, 0.527);
+   border: none;
+   font-size: 18px;
+   border-radius: 10px;
+  }
+  .sub:hover{
+    background-color: rgba(189, 34, 34, 0.89);
+  }
+  .social p{
+    padding-left: 70px;
+    color: aliceblue;
+  }
+  .social img{
+    padding-left: 20px;
+    width: 50px;
+  }
